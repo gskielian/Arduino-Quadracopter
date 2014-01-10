@@ -20,6 +20,9 @@ void setup()
 { 
   esc.attach(9);
   esc.writeMicroseconds(1000);  
+  delay(5000); //NOTE different ESC's have different power up sequences, 
+  // read up on the documentation of your ESC to learn what 
+  // start-up sequence is appropriate for your setup.
   Serial.begin(9600);
 } 
 
