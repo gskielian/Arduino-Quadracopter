@@ -19,7 +19,7 @@ Servo esc;
 void setup() 
 { 
   esc.attach(9);
-  esc.writeMicroseconds(1500);  
+  esc.writeMicroseconds(1000);  
   Serial.begin(9600);
 } 
 
