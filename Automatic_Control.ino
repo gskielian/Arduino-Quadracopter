@@ -9,7 +9,7 @@ int init_delay = 3000;
 
 int final_throttle = 2000;
 int time_until_final = 1000;
-long time_at_final = 480000;
+long time_at_final = 10000; //10 second hold
 int throttle_increment = 50;
 
 int throttle;
