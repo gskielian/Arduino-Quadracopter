@@ -9,7 +9,7 @@ int init_delay = 3000;
 
 int final_throttle = 2000;
 int time_until_final = 1000;
-int time_at_final = 3000;
+long time_at_final = 480000;
 int throttle_increment = 50;
 
 int throttle;
@@ -24,6 +24,8 @@ void setup() {
 
   //begin init sequence
 
+  Serial.println("Initializing");
+
   throttle = init_throttle;
   motor.writeMicroseconds(throttle);
   delay(init_delay);
@@ -34,7 +36,7 @@ void setup() {
   int number_of_steps = ( final_throttle - init_throttle )/ (throttle_increment );
   int delay_per_step = time_until_final / ( number_of_steps );
 
-
+  Serial.println("Ramping up Sequence");
   //ramping up to speed
   for ( throttle = init_throttle ; throttle <= final_throttle ; throttle += throttle_increment ) {
       motor.writeMicroseconds(throttle);
@@ -42,9 +44,12 @@ void setup() {
       delay(delay_per_step);
     }
 
+  Serial.println("Holding");
   //holding at final_throttle
     delay(time_at_final);
 
+
+  Serial.println("Ramping Down");
   //ramping down
   for ( throttle = final_throttle ; throttle >= init_throttle ; throttle -= throttle_increment ) {
       motor.writeMicroseconds(throttle);
