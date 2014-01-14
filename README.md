@@ -32,7 +32,7 @@ In order to reverse the default direction, **swap any two wires** from the ESC-t
 
 Have everything share a common ground (you can also choose to power your arduino from the ESC's red wire if you want)
 
-## Schematich
+## Schematic
 
 ![Manual Control](Manual_Motor_Control.png)
 
