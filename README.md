@@ -15,7 +15,7 @@ You can adapt this code easily to control quadracopter motors via ESC's.
 ├── Manual_Motor_Control.png
 └── README.md
 ```
-- `Manual_Control.ino` start with this and see the [Schematic](Schematic) below
+- `Manual_Control.ino` start with this and see the [Schematic](#schematic) below
 - `Automatic_Control.ino` provides a sequence example, even simpler setup than Manual
 ## Wiring Notes
 
