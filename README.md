@@ -3,11 +3,20 @@ Arduino-Quadracopter
 
 This is code and schematics to control a Brushless DC Motor and ESC using an Arduino. 
 
+You can adapt this code easily to control quadracopter motors via ESC's.
 
-You can adapt this code easily to control quadracopters, and perhaps use a JY-MCU bluetooth dongle 
-to the Arduino to have bluetooth serial control of your project.
+## Description of Files
 
-
+```bash
+.
+├── Automatic_Control.ino
+├── Manual_Control.fzz
+├── Manual_Control.ino
+├── Manual_Motor_Control.png
+└── README.md
+```
+- `Manual_Control.ino` start with this and see the [Schematic](Schematic) below
+- `Automatic_Control.ino` provides a sequence example, even simpler setup than Manual
 ## Wiring Notes
 
 ### For Manual control
