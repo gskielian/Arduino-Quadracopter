@@ -39,7 +39,7 @@ Have everything share a common ground (you can also choose to power your arduino
 ## BOM
 
 | part | link to supplier | cost-when-purchased | shipping |
-| :--- | :---: | :---:|
+| :--- | :---: | :---:| :---: | 
 | A2212-KV10000 Brushless Aircraft Motor| [link](http://www.amazon.com/A2212-KV1000-Brushless-Multi-copter-Aircraft/dp/B008W4VF3W/ref=sr_1_cc_1?s=aps&ie=UTF8&qid=1389732414&sr=1-1-catcorr&keywords=brushless+motor+A2212)  | 15.99 | amazon prime |
 | ESC brushless motor speed controller | [link](http://www.amazon.com/NEEWER%C2%AE-Brushless-Motor-Speed-Controller/dp/B00CIQ0TYQ/ref=pd_bxgy_e_img_y) | 12.95 | amazon prime |
 
