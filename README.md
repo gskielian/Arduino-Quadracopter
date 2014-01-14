@@ -10,6 +10,10 @@ to the Arduino to have bluetooth serial control of your project.
 
 ## Wiring Notes
 
+### For Manual control
+
+If using the manual control setup, it may be best to plug the pot in after doing your first upload.
+
 ### Connecting the ESC-To-BrushlessDCMotor
 the three wires from the ESC to the Brushless DC motor can be **in any order**.
 
@@ -17,11 +21,11 @@ In order to reverse the default direction, **swap any two wires** from the ESC-t
 
 ### Common Ground
 
-Have everything share a common ground.
+Have everything share a common ground (you can also choose to power your arduino from the ESC's red wire if you want)
 
 ## Schematic
 
-Todo
+![Manual Control](Manual_Motor_Control.png)
 
 ## BOM
 
